@@ -1,0 +1,5 @@
+IsBigEndian false
+$begin 'ManagedFiles'
+	radfld[1: 'RAD10AF272401703053072161.tmp']
+	svcache[2: 'HDR10AF272401703053072162.tmp', 'min11BE272401703053155172.tmp']
+$end 'ManagedFiles'

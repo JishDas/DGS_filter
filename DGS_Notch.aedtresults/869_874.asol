@@ -1,0 +1,243 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002023, month=000000000012, day=000000000020, hour=000000000018, min=000000000030, sec=000000000031)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000010048, lin=000000000222, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock22'
+	SolutionName='AdaptivePass'
+	SolutionID=589
+	V=0
+	$begin 'States'
+		F(VID=29, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(800000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=1
+			M(VID=29, Ver=0, File='DV29_SOL589_M1_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			M(VID=29, Ver=0, File='DV29_SOL589_M2_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			M(VID=29, Ver=0, File='DV29_SOL589_M3_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			M(VID=29, Ver=0, File='DV29_SOL589_M4_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			M(VID=29, Ver=0, File='DV29_SOL589_M5_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			M(VID=29, Ver=0, File='DV29_SOL589_M6_V0.sd')
+		$end 'SubData'
+	$end 'M'
+$end 'SolutionBlock22'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=588, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock25'
+	'SolutionKey(SimSetup=588, Instance=\'SolutionDefinition\', Solution=589, VersionID=0)'='SolutionBlock22'
+	'SolutionKey(SimSetup=588, Instance=\'SolutionDefinition\', Solution=590, VersionID=0)'='SolutionBlock23'
+	'SolutionKey(SimSetup=588, Instance=\'SolutionDefinition\', Solution=593, VersionID=0)'='SolutionBlock24'
+$end 'BlockMapName'
+$begin 'SolutionBlock23'
+	SolutionName='LastAdaptive'
+	SolutionID=590
+	V=0
+	$begin 'States'
+		F(VID=29, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(800000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=29, Ver=0, File='DV29_SOL590_M0_V0.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'Fields'
+		IDDblMap(709, 800000000)
+		$begin 'DataMap'
+			VID=29
+			Ver=0
+			F(DblID=709, Dir='DV29_S590_V0_F709/')
+		$end 'DataMap'
+	$end 'Fields'
+$end 'SolutionBlock23'
+$begin 'SolutionBlock24'
+	SolutionName='Sweep'
+	SolutionID=593
+	V=0
+	$begin 'States'
+		F(VID=29, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(100000000, 103750000, 107500000, 111250000, 115000000, 118750000, 122500000, 126250000, 130000000, 133750000, 137500000, 141250000, 145000000, 148750000, 152500000, 156250000, 160000000, 163750000, 167500000, 171250000, 175000000, 178750000, 182500000, 186250000, 190000000, 193750000, 197500000, 201250000, 205000000, 208750000, 212500000, 216250000, 220000000, 223750000, 227500000, 231250000, 235000000, 238750000, 242500000, 246250000, 250000000, 253750000, 257500000, 261250000, 265000000, 268750000, 272500000, 276250000, 280000000, 283750000, 287500000, 291250000, 295000000, 298750000, 302500000, 306250000, 310000000, 313750000, 317500000, 321250000, 325000000, 328750000, 332500000, 336250000, 340000000, 343750000, 347500000, 351250000, 355000000, 358750000, 362500000, 366250000, 370000000, 373750000, 377500000, 381250000, 385000000, 388750000, 392500000, 396250000, 400000000, 403750000, 407500000, 411250000, 415000000, 418750000, 422500000, 426250000, 430000000, 433750000, 437500000, 441250000, 445000000, 448750000, 452500000, 456250000, 460000000, 463750000, 467500000, 471250000, 475000000, 478750000, 482500000, 486250000, 490000000, 493750000, 497500000, 501250000, 505000000, 508750000.0000001, 512499999.9999999, 516250000, 520000000, 523750000.0000001, 527499999.9999999, 531250000, 535000000.0000001, 538750000, 542500000, 546250000, 550000000, 553750000, 557500000, 561250000, 565000000, 568750000, 572500000, 576250000, 580000000, 583750000, 587500000, 591250000, 595000000, 598750000, 602500000, 606250000, 610000000, 613750000, 617500000, 621250000, 625000000, 628750000, 632500000, 636250000, 640000000, 643750000, 647500000, 651250000, 655000000, 658750000, 662500000, 666250000, 670000000, 673750000, 677500000, 681250000, 685000000, 688750000, 692500000, 696250000, 700000000, 703750000, 707500000, 711250000, 715000000, 718750000, 722500000, 726250000, 730000000, 733750000, 737500000, 741250000, 745000000, 748750000, 752500000, 756250000, 760000000, 763750000, 767500000, 771250000, 775000000, 778750000, 782500000, 786250000, 790000000, 793750000, 797500000, 801250000, 805000000, 808750000, 812500000, 816250000, 820000000, 823750000, 827500000, 831250000, 835000000, 838750000, 842500000, 846250000, 850000000, 853750000, 857500000, 861250000, 865000000, 868750000, 872500000, 876250000, 880000000, 883750000, 887500000, 891250000, 895000000, 898750000, 902500000, 906250000, 910000000, 913750000, 917500000, 921250000, 925000000, 928750000, 932500000, 936250000, 940000000, 943750000, 947500000, 951250000, 955000000, 958750000, 962500000, 966250000, 970000000, 973750000, 977500000, 981250000, 985000000, 988750000, 992500000, 996250000, 1000000000, 1003750000, 1007500000, 1011250000, 1015000000, 1018750000, 1022500000, 1026250000, 1030000000, 1033750000, 1037500000, 1041250000, 1045000000, 1048750000, 1052500000, 1056250000, 1060000000, 1063750000, 1067500000, 1071250000, 1075000000, 1078750000, 1082500000, 1086250000, 1090000000, 1093750000, 1097500000, 1101250000, 1105000000, 1108750000, 1112500000, 1116250000, 1120000000, 1123750000, 1127500000, 1131250000, 1135000000, 1138750000, 1142500000, 1146250000, 1150000000, 1153750000, 1157500000, 1161250000, 1165000000, 1168750000, 1172500000, 1176250000, 1180000000, 1183750000, 1187500000, 1191250000, 1195000000, 1198750000, 1202500000, 1206250000, 1210000000, 1213750000, 1217500000, 1221250000, 1225000000, 1228750000, 1232500000, 1236250000, 1240000000, 1243750000, 1247500000, 1251250000, 1255000000, 1258750000, 1262500000, 1266250000, 1270000000, 1273750000, 1277500000, 1281250000, 1285000000, 1288750000, 1292500000, 1296250000, 1300000000, 1303750000, 1307500000, 1311250000, 1315000000, 1318750000, 1322500000, 1326250000, 1330000000, 1333750000, 1337500000, 1341250000, 1345000000, 1348750000, 1352500000, 1356250000, 1360000000, 1363750000, 1367500000, 1371250000, 1375000000, 1378750000, 1382500000, 1386250000, 1390000000, 1393750000, 1397500000, 1401250000, 1405000000, 1408750000, 1412500000, 1416250000, 1420000000, 1423750000, 1427500000, 1431250000, 1435000000, 1438750000, 1442500000, 1446250000, 1450000000, 1453750000, 1457500000, 1461250000, 1465000000, 1468750000, 1472500000, 1476250000, 1480000000, 1483750000, 1487500000, 1491250000, 1495000000, 1498750000, 1502500000, 1506250000, 1510000000, 1513750000, 1517500000, 1521250000, 1525000000, 1528750000, 1532500000, 1536250000, 1540000000, 1543750000, 1547500000, 1551250000, 1555000000, 1558750000, 1562500000, 1566250000, 1570000000, 1573750000, 1577500000, 1581250000, 1585000000, 1588750000, 1592500000, 1596250000, 1600000000)
+		SolutionType=4
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=0
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=29, Ver=0, File='DV29_SOL593_M0_V0.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'Fields'
+		IDDblMap(729, 850000000)
+		$begin 'DataMap'
+			VID=29
+			Ver=0
+			F(DblID=729, Dir='DV29_S593_V0_F729/')
+		$end 'DataMap'
+	$end 'Fields'
+$end 'SolutionBlock24'
+$begin 'SolutionBlock25'
+	SimSetupID=588
+	SimSetupName='Setup1'
+	VersionID=0
+	$begin 'EmConvergenceData'
+		EmConv(VID=29, Ver=0, EmConv='DV29_S588_V0.EMConvData')
+	$end 'EmConvergenceData'
+	IsImported=false
+	IsTable=false
+	SolveSetupID=1
+	$begin 'CurrMeshes'
+		M(VID=29, Ver=0, Dir='DV29_S588_V0.cmesh/')
+	$end 'CurrMeshes'
+	MeshAssemVersionID=0
+	$begin 'NextAssemVersionID'
+		NextUniqueID=1
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'ADP'
+		$begin 'SubData'
+			ID=6
+			ADP(VID=29, Ver=0, Dir='DV29_S588_ADP6_V0.sd/')
+		$end 'SubData'
+	$end 'ADP'
+	$begin 'SU'
+		$begin 'SubData'
+			ID=1
+			SU(VID=29, Ver=0, File='DV29_S588_SD1_V0.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			SU(VID=29, Ver=0, File='DV29_S588_SD2_V0.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			SU(VID=29, Ver=0, File='DV29_S588_SD3_V0.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			SU(VID=29, Ver=0, File='DV29_S588_SD4_V0.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			SU(VID=29, Ver=0, File='DV29_S588_SD5_V0.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			SU(VID=29, Ver=0, File='DV29_S588_SD6_V0.su')
+		$end 'SubData'
+	$end 'SU'
+	$begin 'WaveAdapt'
+		WA(VID=29, Ver=0, A=1)
+	$end 'WaveAdapt'
+	$begin 'LastPassNumbers'
+		LP(VID=29, Ver=0, P=6)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=29, Ver=0, File='DV29_S588_V0.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=29, Ver=0, Dir='DV29_S588_MI0_V0.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock25'
+$begin 'SolutionBlock1'
+	ProductName='HFSS'
+	CircuitName='869_874'
+	VersionID=508
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=1048
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=29)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=29, Ver=508, Dir='DV29_V508.imesh/')
+	$end 'InitialMeshes'
+	MeshAssemVersionID=46
+	$begin 'NextAssemVersionID'
+		NextUniqueID=47
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'DefinitionMeshes'
+		$begin 'DefMeshes_Comp-1'
+			DefinitionID=-1
+			VersionID=45
+			VIDMap('', 80)
+			DM(VID=80, Ver=45, Dir='NDV80_V45.dmesh/')
+		$end 'DefMeshes_Comp-1'
+	$end 'DefinitionMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=29, Ver=508, Dir='DV29_MI0_V508.sd/')
+		$end 'SubData'
+	$end 'MI'
+	VersionID2=0
+$end 'SolutionBlock1'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock1(pos=9214, lin=185, lvl=0)
+		SolutionBlock22(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=1326, lin=46, lvl=0)
+		SolutionBlock23(pos=1821, lin=53, lvl=0)
+		SolutionBlock24(pos=2468, lin=86, lvl=0)
+		SolutionBlock25(pos=7708, lin=119, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=10048, lin=222, lvl=0)
+	$end '$index$'
+$end '$index$'
